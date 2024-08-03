@@ -7,6 +7,10 @@ SampleCodeFun.R contains R functions needed to run the code in SampleCode.R. Our
 
 SampleCode.R contains R code implementing the proposed methods.
 
-SampleCodeFunPI.R contains R functions needed to run the code in SampleCode.R for sensitivity analysis when principal ignorability assumption is violated. 
+SampleCodeFunPI.R contains R functions needed to run the code in SampleCodePI.R for sensitivity analysis when principal ignorability assumption is violated. 
 
 SampleCodePI.R contains R code implementing the proposed methods for sensitivity analysis when principal ignorability assumption is violated.
+
+SampleCodeFunMono.R contains R functions needed to run the code in SampleCodeMono.R for sensitivity analysis when monotonicity assumption is violated. Our sandwich variance estimates are calculated using the geex package. Please refer to their documentation for more details and examples.
+
+SampleCodeMono.R contains R code implementing the proposed methods for sensitivity analysis when monotonicity assumption is violated.
